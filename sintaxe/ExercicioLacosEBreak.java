@@ -2,12 +2,14 @@ package sintaxe;
 
 public class ExercicioLacosEBreak {
     public static void main(String[] args) {
-        for (int linha = 0; linha < 10; linha++) {
-            for (int coluna = 0; coluna <= linha; coluna++) {
-                System.out.print(coluna + 1);
-            }
-            System.out.println();
-
+        /* Forma 1 de mostrar multiplos de 3
+         *for (int contador = 1; contador <= 100; contador++) {
+         *  if(contador % 3 == 0){
+         *       System.out.println(contador);
+         *    }
+         */
+        for (int i = 3; i < 100; i += 3) {
+            System.out.println(i);
         }
 
     }
